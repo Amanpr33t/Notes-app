@@ -1,0 +1,74 @@
+
+.nav{
+    background-color: rgb(212, 224, 224);
+    height: 60px;
+    width:100%;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction:row ;
+}
+.nav .heading{
+    background-color: rgb(212, 224, 224);
+    width:200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 36px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.arrow{
+    height: 50px;
+    width:45px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 15px;
+    border-radius: 30%;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+.login-nav,.signUp-nav,.heading,.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+}
+.login-nav,.signUp-nav,.arrow{
+    background-color: rgb(176, 202, 202);
+}
+.login-nav,.signUp-nav{
+    width:150px;
+    font-size: 20px;
+    color: black;
+    text-decoration-line: none;
+}
+.nav .heading:hover,.arrow:hover,.element:hover,.login-nav:hover,.signUp-nav:hover{
+    background-color: rgb(186, 209, 209);
+    cursor: pointer;
+}
+.empty-nav{
+    width:100%;
+}
+
+.user-nav{
+    width: 140px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:60px;
+    right:0px;
+    z-index: 1;
+}
+.element{
+    background-color: rgb(212, 224, 224);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.disabled{
+    display: none;
+}
+

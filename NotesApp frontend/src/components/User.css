@@ -1,0 +1,119 @@
+.user-credentials{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-form,.signUp-form,.update-password-form,.forgot-password-form{
+    position:fixed;
+    top:140px;
+    background-color: rgb(163, 189, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.signUp-form{
+    height: 350px;
+}
+.login-form,.update-password-form{
+    height: 300px;
+}
+.forgot-password-form{
+    height: 250px;
+}
+
+.signUp-form form,.login-form form,.update-password-form form,.forgot-password-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.signUp-form form input,.login-form form input,.update-password-form form input,.forgot-password-form form input{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.signUp-form form label,.login-form form label,.update-password-form form label,.forgot-password-form form label{
+    width: 150px;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+.signUp-form .button-form,.login-form .button-form, .update-password-form .button-form,.forgot-password-form .button-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.signUp-form .button-form button, .login-form .button-form button, .update-password-form .button-form button, .forgot-password-form .button-form button{
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: rgb(97, 97, 207);
+    border:none;
+    font-weight:500 ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.button-form button:hover{
+    background-color: rgb(73, 73, 119);
+    cursor: pointer;
+}
+.tokenModal{
+    position:fixed;
+    top:140px;
+    background-color: rgb(163, 189, 189);
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.tokenModal div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tokenModal div input{
+    margin-top:10px ;
+    margin-bottom: 20px;
+    width:100px;
+    height:30px;
+}
+.tokenModal .content{
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+.tokenModal .close{
+    display: flex;
+    flex-direction: row;
+    }
+    .tokenModal .close .empty{
+        width: 100%;
+    }
+    .tokenModal .close .cross{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(145, 171, 193);
+    }
+    .tokenModal div button{
+        background-color: rgb(88, 88, 153);
+        width: 80px;
+        height: 40px;
+        border: none;
+    }
+    .tokenModal div button:hover,.tokenModal .close .cross:hover{
+        background-color: rgb(107, 107, 164);
+        cursor: pointer;
+    }

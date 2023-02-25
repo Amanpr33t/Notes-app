@@ -1,0 +1,67 @@
+.email-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email{
+    width: 500px;
+    height:360px;
+    position: fixed;
+    top: 140px;
+    background-color: rgb(181, 204, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.email form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.email form label{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.email form input{
+    height: 30px;
+    
+    
+}
+.email form textarea, .email form input{
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.email .button-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.email .button-form button{
+    font-size: 17px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(72, 98, 218);
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button-form button:hover{
+    background-color:rgb(113, 132, 219); 
+    cursor:pointer
+}
+
+
+@media screen and (max-width:530px) {
+    .email{
+        width: 100%;
+    }
+   }

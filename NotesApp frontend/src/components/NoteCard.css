@@ -1,0 +1,89 @@
+.note-card-container{
+    position: absolute;
+    position: relative;
+    top: 560px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    
+}
+.note-card{
+    width: 250px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: rgb(212, 224, 224);
+}
+.note-card form input{
+    transform: scale(2);
+    position: absolute;
+    left: -19px;
+    top:7px
+}
+.note-card .heading{
+    width:100%;
+    height: 200px;
+    font-size: 20px;
+    font-weight:200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.note-card .button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.note-card .button button{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    background-color: rgb(103, 153, 153);
+    border:none;
+    border-radius: 10px;
+}
+.note-card .button button:hover{
+    background-color: rgb(59, 107, 107); 
+}
+.button-last{
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.button-last div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.button-last div button{
+    background-color: rgb(103, 153, 153);
+    height: 30px;
+    font-weight: 200;
+    border: none;
+    padding-left: 4px;
+    padding-right:4px ;
+    border-radius: 10px;
+}
+.button-last div button:hover{
+    background-color: rgb(59, 107, 107); 
+}
+.empty-noteCard{
+    height: 20px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.heading p{
+    padding:10px
+}

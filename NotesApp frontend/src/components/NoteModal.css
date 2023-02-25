@@ -1,0 +1,53 @@
+
+
+.note-modal{
+    position: fixed;
+    top: 100px;
+    left: 450px;
+    width: 500px;
+    height: 460px;
+    background-color: rgb(212, 224, 224);
+    z-index: 1;
+}
+.modal{
+    height: 400px;
+    overflow-y: scroll;
+}
+.note-modal,.modal,.modal .heading,.modal .content{
+    display: flex;
+    flex-direction: column;
+}
+.modal .heading,.modal .content{
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.heading-tag, .content-tag{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading-data,.content-data{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-modal{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.button-modal button{
+    margin-top: 15px;
+    background-color: rgb(146, 180, 180);
+    height: 30px;
+    font-weight: 200;
+    border: none;
+    padding-left: 4px;
+    padding-right:4px ;
+    border-radius: 10px;
+}
+
+.button-modal button:hover{
+    background-color: rgb(125, 172, 172);
+    cursor: pointer;
+}
